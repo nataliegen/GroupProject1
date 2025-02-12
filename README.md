@@ -1,7 +1,7 @@
 # GroupProject1
 
 Spotify
-<img width="1512" alt="Screenshot 2025-02-12 at 12 06 17 PM" src="https://github.com/user-attachments/assets/8647a1dc-72ff-422b-b699-f569e8a29ce2" />
+<img width="1512" alt="Screenshot 2025-02-12 at 1 59 07 PM" src="https://github.com/user-attachments/assets/5eec84eb-fb01-46a0-b956-9834760c35e0" />
 
 
 
