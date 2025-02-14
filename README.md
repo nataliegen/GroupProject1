@@ -8,7 +8,7 @@ Spotify
 **Users** - Stores user details with a unique user_ID.
 
 Relationships:
--  One-to-Many with MusicLibraries (each user has one library).
+-  One-to-Many with MusicLibraries (each user can have many libraries).
 -  One-to-Many with Playlists (each user can create multiple playlists).
 -  One-to-Many with PlayerSessions (each user can have multiple listening sessions).
 
