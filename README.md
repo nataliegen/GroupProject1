@@ -49,7 +49,7 @@ Relationships:
 -  One-to-Many with TopFiveSongs (ranking popular songs).
 
 
-**TopFiveSongs** - Stores the top five songs from lay count.
+**TopFiveSongs** - Stores the top five songs from play count.
 
 Relationships:
 - One-to-Many with PlayCounts (each top song is linked to a play count record).
