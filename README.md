@@ -1,6 +1,6 @@
 # GroupProject1
 
-Spotify
+Web Player
 <img width="1512" alt="Screenshot 2025-02-12 at 2 16 21 PM" src="https://github.com/user-attachments/assets/fbbec43b-b928-4ce8-bb9e-07d3cddccef6" />
 
 
