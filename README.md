@@ -1,8 +1,7 @@
 # GroupProject1
 
 Web Player
-<img width="1512" alt="Screenshot 2025-02-12 at 2 16 21 PM" src="https://github.com/user-attachments/assets/fbbec43b-b928-4ce8-bb9e-07d3cddccef6" />
-
+<img width="1512" alt="Screenshot 2025-02-19 at 9 26 06 AM" src="https://github.com/user-attachments/assets/418b568e-a5de-45d7-b5b4-9e0e5135f472" />
 
 
 **Users** - Stores user details with a unique user_ID.
