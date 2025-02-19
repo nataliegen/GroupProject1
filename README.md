@@ -17,7 +17,7 @@ Relationships:
 Relationships:
 -  Many-to-Many with Songs via LibrarySongs (each library can contain multiple songs).
 
-**PlaylistSongs** - Allows users to have multiple songs in their library while each song can belong to multiple libraries.
+**LibrarySongs** - Allows users to have multiple songs in their library while each song can belong to multiple libraries.
 
 **Songs** - Contains song data
 
@@ -25,7 +25,7 @@ Relationships:
 -  One-to-Many with PlayCounts (each song can have multiple play records).
 -  Many-to-Many with Playlists via PlaylistSongs (a song can be in multiple playlists).
 -  Many-to-Many with Genres via SongGenres (a song can belong to multiple genres).
-
+-  Many-to-Many with MusicLibraries via LibrarySongs.
 
 **PlayerSessions** - Tracks user sessions.
 
