@@ -15,7 +15,9 @@ Relationships:
 **MusicLibraries** - Represents a user's music collection.
 
 Relationships:
--  One-to-Many with Songs (each library can contain multiple songs).
+-  Many-to-Many with Songs via LibrarySongs (each library can contain multiple songs).
+
+**PlaylistSongs** - Allows users to have multiple songs in their library while each song can belong to multiple libraries.
 
 **Songs** - Contains song data
 
