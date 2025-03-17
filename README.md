@@ -56,8 +56,16 @@ Relationships:
 - One-to-Many with PlayCounts (each top song is linked to a play count record).
 
 **Genres** - Stores music genres.
-Relationships:
+
 -  Many-to-Many with Songs via SongGenres.
 
 
 **SongGenres** Connects Songs and Genres in a Many-to-Many relationship.
+
+
+## Data Dictionary 
+![Screenshot 2025-03-17 114233](https://github.com/user-attachments/assets/02842a88-81a0-4e84-9d53-9f3999196585)
+![Screenshot 2025-03-17 114304](https://github.com/user-attachments/assets/38a7ab9b-6f22-41a3-a507-b37f63473469)
+![Screenshot 2025-03-17 114324](https://github.com/user-attachments/assets/fb8498ad-ceed-453f-89f1-225e96f22adf)
+![Screenshot 2025-03-17 114339](https://github.com/user-attachments/assets/9e9ef908-049c-42fc-8338-75921d72e88d)
+![Screenshot 2025-03-17 114355](https://github.com/user-attachments/assets/1343f9f7-be7d-4143-ab6f-5ade73669aa4)
