@@ -1,5 +1,17 @@
 # GroupProject1
 
+## Team Information
+21482 Group 3 
+
+### Team Members 
+1. Natalie Gen
+2. Priyanka Govani
+3. Truett Thompson
+4. Patrick Schutz
+5. Anika Kaushik
+
+   
+## Data Model
 Web Player
 <img width="1216" alt="Screenshot 2025-02-19 at 10 44 09 AM" src="https://github.com/user-attachments/assets/750bc194-9d23-40ba-9ea3-54ff90910a00" />
 
