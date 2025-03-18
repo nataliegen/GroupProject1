@@ -13,7 +13,7 @@
    
 ## Data Model
 Web Player
-<img width="1216" alt="Screenshot 2025-02-19 at 10 44 09 AM" src="https://github.com/user-attachments/assets/750bc194-9d23-40ba-9ea3-54ff90910a00" />
+<img width="1239" alt="Screenshot 2025-03-18 at 1 49 01 PM" src="https://github.com/user-attachments/assets/4994ddc9-fb95-4468-b72d-5f5204154d12" />
 
 
 **Users** - Stores user details with a unique user_ID.
