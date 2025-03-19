@@ -175,6 +175,6 @@ Attributes:
 ![Screenshot 2025-03-17 114339](https://github.com/user-attachments/assets/9e9ef908-049c-42fc-8338-75921d72e88d)
 ![Screenshot 2025-03-17 114355](https://github.com/user-attachments/assets/1343f9f7-be7d-4143-ab6f-5ade73669aa4)
 
-##Query Complexity Matrix
+## Query Complexity Matrix
 <img width="627" alt="Screenshot 2025-03-18 at 10 48 35 PM" src="https://github.com/user-attachments/assets/526bcc74-9834-4293-b550-b25b714f614a" />
 
