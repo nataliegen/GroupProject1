@@ -174,11 +174,12 @@ Attributes:
 - Many-to-One with Genres (each entry references a genre).
 
 ## Data Dictionary 
-![Screenshot 2025-03-17 114233](https://github.com/user-attachments/assets/02842a88-81a0-4e84-9d53-9f3999196585)
-![Screenshot 2025-03-17 114304](https://github.com/user-attachments/assets/38a7ab9b-6f22-41a3-a507-b37f63473469)
-![Screenshot 2025-03-17 114324](https://github.com/user-attachments/assets/fb8498ad-ceed-453f-89f1-225e96f22adf)
-![Screenshot 2025-03-17 114339](https://github.com/user-attachments/assets/9e9ef908-049c-42fc-8338-75921d72e88d)
-![Screenshot 2025-03-17 114355](https://github.com/user-attachments/assets/1343f9f7-be7d-4143-ab6f-5ade73669aa4)
+![Screenshot 2025-03-18 233344](https://github.com/user-attachments/assets/dddf3603-9596-4a29-b978-104911f12306)
+![Screenshot 2025-03-18 233355](https://github.com/user-attachments/assets/f674d3db-d72d-41e8-8f2f-6215e39578a1)
+![Screenshot 2025-03-18 233407](https://github.com/user-attachments/assets/c0166899-267c-4043-a7c6-98eee918ece6)
+![Screenshot 2025-03-18 233417](https://github.com/user-attachments/assets/4af48ed1-15f9-4469-a08a-7581ea05a3dc)
+![Screenshot 2025-03-18 233424](https://github.com/user-attachments/assets/82f3c691-4c80-4fab-a394-e7a46febe67d)
+
 
 ## Queries 
 TP_Q1 : Write a query which displays the playlistName and like count that has the most like counts for each user. 
