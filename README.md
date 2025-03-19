@@ -189,6 +189,7 @@ Description: This query identifies the most liked playlist for each user by retr
 TP_Q2 : Write a query which displays the first, last name, and date of birth for every user who was born after 1990. Order it by date of birth going from earliest to latest. 
 
 Description: This query retrieves the first name, last name, and date of birth for all users born after 1990, ordering them by date of birth from earliest to latest. This information is useful for understanding the age demographics of the platform’s user base, allowing for age-targeted recommendations, marketing campaigns, and content curation. By analyzing user age groups, the platform can tailor playlists, promotions, and advertisements to specific generational preferences. 
+
 <img width="443" alt="Screenshot 2025-03-18 at 11 09 18 PM" src="https://github.com/user-attachments/assets/5172d00b-f168-44a1-85a9-d922c207f40e" />
 
 TP_Q3 : Write a query that shows artists whose songs have the highest play count by users in the US. 
