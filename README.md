@@ -227,5 +227,6 @@ Description: This query identifies the most popular artists in each genre if the
 
 
 ## Query Complexity Matrix
-<img width="627" alt="Screenshot 2025-03-18 at 10 48 35 PM" src="https://github.com/user-attachments/assets/526bcc74-9834-4293-b550-b25b714f614a" />
+<img width="628" alt="Screenshot 2025-03-18 at 11 00 01 PM" src="https://github.com/user-attachments/assets/11934eaa-21a0-43b9-af38-70c3fc38db38" />
+
 
