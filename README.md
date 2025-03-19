@@ -22,7 +22,7 @@ The Genres table defines different musical genres, with attributes such as descr
 Lastly, the PlaylistSongs table functions as an associative entity linking playlists to songs. It tracks when a song was added, the last played date, play count, and times skipped, allowing users to analyze their playlist interactions.
 This data model enables a fully functional music web player, allowing users to manage their libraries, play songs, create and share playlists, and explore music across genres, artists, and albums.
 
-![PNG image](https://github.com/user-attachments/assets/210eeb6c-258c-4c4a-aba7-0cc9af91863f)
+<img width="845" alt="Screenshot 2025-03-18 at 10 59 13 PM" src="https://github.com/user-attachments/assets/daca5666-85a3-49af-bbfc-2b0f1b1a7d9f" />
 
 
 **Users** – Stores user details
