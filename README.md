@@ -10,8 +10,18 @@
 4. Patrick Schutz
 5. Anika Kaushik
 
-   
 ## Data Model
+
+Our data model represents the structure of a music web player, facilitating user interaction with songs, artists, playlists, and playback tracking.
+The Users entity serves as the foundation, storing details such as username, email, name, date of birth, and country. Each user can create multiple Playlists, which contain songs and are associated with attributes like privacy settings, creation date, and like count.
+The MusicLibrary table tracks which songs a user has added to their library, along with metadata such as play count, skip count, and last played date. This table enables personalized listening experiences.
+To track user activity, the PlayerSessions table logs each listening session, linking a user and a song to timestamps that mark when a session starts and ends. This provides insights into user listening behavior.
+The Songs table stores metadata about each song, including its title, duration, release date, and links to the Artist and Album it belongs to. Each song is categorized by genres through the SongGenres table, which assigns genres to songs with relevance scores.
+The Artist table maintains information about artists, including their name, country, label, and biography. Artists may release multiple albums, and the Album table captures this relationship by linking albums to artists. The album also records data such as total tracks, duration, album type, and the primary genre.
+The Genres table defines different musical genres, with attributes such as description, country of origin, and historical era. Artists can be associated with multiple genres through the ArtistGenres table, which includes a popularity score for each genre assigned to an artist.
+Lastly, the PlaylistSongs table functions as an associative entity linking playlists to songs. It tracks when a song was added, the last played date, play count, and times skipped, allowing users to analyze their playlist interactions.
+This data model enables a fully functional music web player, allowing users to manage their libraries, play songs, create and share playlists, and explore music across genres, artists, and albums.
+
 Web Player
 ![PNG image](https://github.com/user-attachments/assets/210eeb6c-258c-4c4a-aba7-0cc9af91863f)
 
