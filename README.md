@@ -175,6 +175,52 @@ Attributes:
 ![Screenshot 2025-03-17 114339](https://github.com/user-attachments/assets/9e9ef908-049c-42fc-8338-75921d72e88d)
 ![Screenshot 2025-03-17 114355](https://github.com/user-attachments/assets/1343f9f7-be7d-4143-ab6f-5ade73669aa4)
 
+## Queries 
+TP_Q1 : Write a query which displays the playlistName and like count that has the most like counts for each user. 
+
+Description: This query identifies the most liked playlist for each user by retrieving the playlist with the highest number of likes. It helps the platform understand which types of playlists users engage with the most, allowing for better playlist recommendations and personalized curation. Knowing a user’s most liked playlist can drive engagement strategies, such as suggesting similar playlists, promoting user-created content, or featuring popular playlists. 
+
+TP_Q2 : Write a query which displays the first, last name, and date of birth for every user who was born after 1990. Order it by date of birth going from earliest to latest. 
+
+Description: This query retrieves the first name, last name, and date of birth for all users born after 1990, ordering them by date of birth from earliest to latest. This information is useful for understanding the age demographics of the platform’s user base, allowing for age-targeted recommendations, marketing campaigns, and content curation. By analyzing user age groups, the platform can tailor playlists, promotions, and advertisements to specific generational preferences
+
+
+TP_Q3 : Write a query that shows artists whose songs have the highest play count by users in the US. 
+
+Description: This query retrieves the artist whose songs have the highest total play count by users located in the United States. By filtering based on user location and aggregating total plays per artist, this query helps identify the most popular artists among US listeners. This insight is valuable for targeted marketing campaigns, regional promotions, and exclusive content strategies. Streaming services can use this data to curate country-specific playlists, recommend trending US-based artists, or negotiate regional sponsorship deals.
+
+TP_Q4 : Write a query that displays songs and the artist of the songs which are 50% country
+
+Description: This query retrieves songs and their artists where at least 50% of the song’s genre classification is country. Many songs fall into multiple genres, so this query helps identify tracks that are significantly influenced by country music but may also belong to other genres. Understanding partially country songs allows the platform to enhance personalized recommendations, helping users discover songs that blend country with other styles. 
+
+TP_Q5: Write a query to list song name and artist of the song that has been skipped the most time in each playlist.
+
+Description: This query helps identify the most skipped song in each playlist, showing the song name and its artist. It does this by comparing the skip count of each song to the highest skip count in that playlist. By analyzing this data, the platform can pinpoint which songs are most likely interrupting the listening experience. This insight can be used to improve playlist recommendations and make the overall listening experience better for users.
+
+
+TP_Q6 : Write a query which displays the top 5 most played songs for a given user (2). List the song title, artist, album, genre and play count. 
+
+Description: This query retrieves the top 5 most played songs for user 2, listing the song title, artist, album, genre, and play count. Understanding a user’s most frequently played songs helps the platform enhance personalized recommendations, curate better auto-generated playlists, and improve music discovery. Which can also be used to suggest similar songs or artists, increasing user engagement and retention. It allows the platform to identify music trends among users, which can be leveraged for targeted promotions, concert recommendations, or exclusive content offerings.
+
+TP_Q7 : Write a query that retrieves the total number of play sessions per country, calculates the average session duration in seconds for each country, and counts the total number of songs users from each country have in their music library
+
+Description: This query provides insights into user engagement by analyzing music consumption patterns across different countries. It identifies which countries have the highest number of play sessions, the average session duration per country, and the total number of songs users from each country have in their libraries.  It can also be used to enhance user retention by offering personalized playlists, country-specific promotions, or localized content based on session activity and song preferences.
+
+TP_Q8 : Write a query that counts all the users that have a play session for 10 mins or more
+
+Description: This query identifies users who have listened for 30 mins or longer sessions, highlighting highly engaged listeners who frequently return to the platform. Understanding which users exceed this threshold helps improve user retention strategies, such as personalized recommendations, exclusive promotions, or loyalty rewards. For free-tier users, this data can drive targeted ads or subscription offers, while premium users may receive early access to new features or curated content.
+
+TP_Q9 : Write a query to list the average play count of songs by genre
+
+Description: This query calculates the average play count of songs grouped by genre, providing insights into which genres receive the most and least engagement on the platform. By analyzing the average number of plays per genre, the platform can identify trends in user preferences, helping refine recommendations, curated playlists, and promotional strategies. Genres with high average play counts may indicate strong listener retention, while those with lower engagement may require better discovery features or targeted marketing.
+
+TPQ_10 : Write a query to list the most popular artists in each genre if their album has more than 10 tracks and they are from where the genre originated. List the artist name, genre name, and genre origin country.
+
+Description: This query identifies the most popular artists in each genre if they have an album with more than 10 tracks and are from the genre’s origin country. It highlights authentic and prolific contributors, helping streaming platforms promote culturally significant artists. This insight supports playlist curation, regional marketing, and event planning, ensuring users discover genre-defining musicians while boosting engagement and targeted promotions.
+
+
+
+
 ## Query Complexity Matrix
 <img width="627" alt="Screenshot 2025-03-18 at 10 48 35 PM" src="https://github.com/user-attachments/assets/526bcc74-9834-4293-b550-b25b714f614a" />
 
