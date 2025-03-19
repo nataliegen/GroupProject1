@@ -187,11 +187,13 @@ Description: This query identifies the most liked playlist for each user by retr
 
 <img width="541" alt="Screenshot 2025-03-18 at 11 08 50 PM" src="https://github.com/user-attachments/assets/a7ed1c58-139c-4a9d-8797-d77889d4e120" />
 
+
 TP_Q2 : Write a query which displays the first, last name, and date of birth for every user who was born after 1990. Order it by date of birth going from earliest to latest. 
 
 Description: This query retrieves the first name, last name, and date of birth for all users born after 1990, ordering them by date of birth from earliest to latest. This information is useful for understanding the age demographics of the platform’s user base, allowing for age-targeted recommendations, marketing campaigns, and content curation. By analyzing user age groups, the platform can tailor playlists, promotions, and advertisements to specific generational preferences. 
 
 <img width="443" alt="Screenshot 2025-03-18 at 11 09 18 PM" src="https://github.com/user-attachments/assets/5172d00b-f168-44a1-85a9-d922c207f40e" />
+
 
 TP_Q3 : Write a query that shows artists whose songs have the highest play count by users in the US. 
 
@@ -199,11 +201,13 @@ Description: This query retrieves the artist whose songs have the highest total 
 
 <img width="409" alt="Screenshot 2025-03-18 at 11 09 38 PM" src="https://github.com/user-attachments/assets/af81129b-083b-45b1-a807-1d322cc270b8" />
 
+
 TP_Q4 : Write a query that displays songs and the artist of the songs which are 50% country
 
 Description: This query retrieves songs and their artists where at least 50% of the song’s genre classification is country. Many songs fall into multiple genres, so this query helps identify tracks that are significantly influenced by country music but may also belong to other genres. Understanding partially country songs allows the platform to enhance personalized recommendations, helping users discover songs that blend country with other styles. 
 
 <img width="522" alt="Screenshot 2025-03-18 at 11 11 53 PM" src="https://github.com/user-attachments/assets/f606e8c5-519d-4674-aba7-0e8ae7441676" />
+
 
 TP_Q5: Write a query to list song name and artist of the song that has been skipped the most time in each playlist.
 
@@ -216,11 +220,13 @@ TP_Q6 : Write a query which displays the top 5 most played songs for a given use
 
 Description: This query retrieves the top 5 most played songs for user 2, listing the song title, artist, album, genre, and play count. Understanding a user’s most frequently played songs helps the platform enhance personalized recommendations, curate better auto-generated playlists, and improve music discovery. Which can also be used to suggest similar songs or artists, increasing user engagement and retention. It allows the platform to identify music trends among users, which can be leveraged for targeted promotions, concert recommendations, or exclusive content offerings.
 
+
 TP_Q7 : Write a query that retrieves the total number of play sessions per country, calculates the average session duration in seconds for each country, and counts the total number of songs users from each country have in their music library
 
 Description: This query provides insights into user engagement by analyzing music consumption patterns across different countries. It identifies which countries have the highest number of play sessions, the average session duration per country, and the total number of songs users from each country have in their libraries.  It can also be used to enhance user retention by offering personalized playlists, country-specific promotions, or localized content based on session activity and song preferences.
 
 <img width="504" alt="Screenshot 2025-03-18 at 11 13 01 PM" src="https://github.com/user-attachments/assets/357d4490-8eba-496f-85a3-61451f379ff0" />
+
 
 TP_Q8 : Write a query that counts all the users that have a play session for 10 mins or more
 
@@ -228,11 +234,13 @@ Description: This query identifies users who have listened for 30 mins or longer
 
 <img width="554" alt="Screenshot 2025-03-18 at 11 10 37 PM" src="https://github.com/user-attachments/assets/51f7e814-3443-457a-af36-30787c7f3a4b" />
 
+
 TP_Q9 : Write a query to list the average play count of songs by genre
 
 Description: This query calculates the average play count of songs grouped by genre, providing insights into which genres receive the most and least engagement on the platform. By analyzing the average number of plays per genre, the platform can identify trends in user preferences, helping refine recommendations, curated playlists, and promotional strategies. Genres with high average play counts may indicate strong listener retention, while those with lower engagement may require better discovery features or targeted marketing.
 
 <img width="627" alt="Screenshot 2025-03-18 at 11 12 41 PM" src="https://github.com/user-attachments/assets/5a492499-766f-4fb1-b301-aafb2a59eb47" />
+
 
 TPQ_10 : Write a query to list the most popular artists in each genre if their album has more than 10 tracks and they are from where the genre originated. List the artist name, genre name, and genre origin country.
 
