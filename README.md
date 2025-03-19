@@ -220,6 +220,8 @@ TP_Q6 : Write a query which displays the top 5 most played songs for a given use
 
 Description: This query retrieves the top 5 most played songs for user 2, listing the song title, artist, album, genre, and play count. Understanding a user’s most frequently played songs helps the platform enhance personalized recommendations, curate better auto-generated playlists, and improve music discovery. Which can also be used to suggest similar songs or artists, increasing user engagement and retention. It allows the platform to identify music trends among users, which can be leveraged for targeted promotions, concert recommendations, or exclusive content offerings.
 
+![image](https://github.com/user-attachments/assets/fbebd280-04cb-4f4f-913c-43d28cb7fd95)
+
 
 TP_Q7 : Write a query that retrieves the total number of play sessions per country, calculates the average session duration in seconds for each country, and counts the total number of songs users from each country have in their music library
 
