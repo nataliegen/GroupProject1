@@ -38,12 +38,13 @@ Attributes:
 **Relationships**:
 - One-to-Many with PlayerSessions (each user can have multiple sessions).
 - One-to-Many with Playlists (each user can create multiple playlists).
+- One-to-Many with MusicLibrary.
 
 **MusicLibrary** – Represents a user's music collection
 Attributes:
 - Primary Key: libraryID
 - Foreign Key: userID
-- songID
+- Foreign Key: songID
 - play_count
 - skip_count
 - date_added
@@ -80,12 +81,13 @@ Attributes:
 **Relationships**:
 - One-to-Many with Songs (an artist can have many songs).
 - Many-to-Many with Genres via ArtistGenres (an artist can be associated with multiple genres).
-- One-to-Many with Albums (an artist can have multiple albums).
+- One-to-Many with Album (an artist can have multiple albums).
 
 **Album** – Stores information about albums
 Attributes:
 - Primary Key: albumID
 - Foreign Key: artistID
+- Foreign Key: primary_genreID
 - title
 - release_date
 - record_label
@@ -95,6 +97,8 @@ Attributes:
 
 **Relationships**:
 - One-to-Many with Songs (each album contains multiple songs).
+- Many-to-One with Artist (each album has one artist).
+- Many-to-One with Genres (each album has one genre).
 
 **PlayerSessions** – Tracks user listening sessions
 Attributes:
@@ -127,7 +131,7 @@ Attributes:
 - Foreign Key: playlistID
 - added_date
 - playlist_play_count
-- playlist_last_played_date
+- playlist_last_played
 - times_skipped
 
 **Relationships**:
@@ -145,6 +149,7 @@ Attributes:
 **Relationships**:
 - Many-to-Many with Songs via SongGenres (a song can belong to multiple genres).
 - Many-to-Many with Artists via ArtistGenres (an artist can be associated with multiple genres).
+- One-to-May with Album (an album can be associated with multiple genres).
 
 **SongGenres** – Associative entity between Songs and Genres
 Attributes:
